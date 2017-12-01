@@ -12,7 +12,7 @@ npm install salieo.js
 
 [salieo.js](https://github.com/salieo/salieo.js) can work on any element with a CSS `background-image` or any `<img>` element. Just add the `salieo` class (or the custom class you specified with the [img_class](#img_class) option) and watch the images pop into place.
 
-## Setup
+### Setup
 
 Create an instance, passing in your [options](#options).
 
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 1. As mentioned previously, if you are using a `<script>` tag to load salieo.js you should include it in your `<head>` *not* at the end of `<body>` as one may be used to. As long as the script is loaded with the `defer` tag it won't block rendering while loading and will ensure salieo.js is fully loaded before the `DOMContentLoaded` event fires.
 2. A salieo instance should be created when the the `DOMContentLoaded` event fires. Creating the instance before the DOM has fully loaded could result in salieo not finding all images that need processing. Conversly, creating the instance after the `DOMContentLoaded` event, (i.e. on the `load` event) will likely not give salieo enough time to reposition the images before they are displayed.
 
-## How does it work?
+### How does it work?
 
 salieo.js uses [cropcalc-js](https://github.com/salieo/cropcalc-js) to calculate the best crop for an image based on data returned from the Salieo API. 
 
