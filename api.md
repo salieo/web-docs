@@ -12,30 +12,30 @@ GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&
 
 ```
 {
-	"crops": {
-		"suggested": [{
-			"x2": 1998,
-			"y2": 1444,
-			"y1": 552,
-			"x1": 0,
-			"id": 1
-		}, {
-			"x2": 1998,
-			"y2": 1444,
-			"y1": 646,
-			"x1": 962,
-			"id": 2
-		}],
+    "crops": {
+        "suggested": [{
+            "x2": 1998,
+            "y2": 1444,
+            "y1": 552,
+            "x1": 0,
+            "id": 1
+        }, {
+            "x2": 1998,
+            "y2": 1444,
+            "y1": 646,
+            "x1": 962,
+            "id": 2
+        }],
 		"fallback": [{
-			"x2": 1694,
-			"y2": 955,
-			"y1": 679,
-			"x1": 1427,
-			"id": 1
-		}],
-	},
-	"orig_width": 2000,
-	"orig_height": 1446
+            "x2": 1694,
+            "y2": 955,
+            "y1": 679,
+            "x1": 1427,
+            "id": 1
+        }],
+    },
+    "orig_width": 2000,
+    "orig_height": 1446
 }
 ```
 
