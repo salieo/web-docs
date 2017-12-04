@@ -8,13 +8,13 @@ The Salieo API provides direct access to the crop direction data that powers [sa
 
 **Request:**
 
-```
+```bash
 GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&key=myapikey
 ```
 
 **Response:** (JSON)
 
-```
+```json
 {
     "crops": {
         "suggested": [{
@@ -61,7 +61,7 @@ GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&
 
 Crops are represented with the following structure:
 
-```
+```json
 {
     "x2": 1694,
     "y2": 955,
@@ -71,4 +71,4 @@ Crops are represented with the following structure:
 }
 ```
 
-With **x1**, **x2**, **y1** and **y2** representing the **left**, **right**, **top** and **bottom** sides of the crop (in px). The **id** number can be helpful for sorting the crops from smallest to largest. The largest suggested and fallback crops will have an **id** of **1** with the smallest crops having the highest **id**.
+With **x1**, **x2**, **y1** and **y2** representing the **left**, **right**, **top** and **bottom** sides (respectively) of the crop (in px). The **id** number can be helpful for sorting the crops from smallest to largest. The largest suggested and fallback crops will have an **id** of **1** with the smallest crops having the highest **id**.
