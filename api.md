@@ -30,7 +30,7 @@ GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&
             "x1": 962,
             "id": 2
         }],
-		"fallback": [{
+        "fallback": [{
             "x2": 1694,
             "y2": 955,
             "y1": 679,
