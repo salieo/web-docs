@@ -8,7 +8,7 @@ The Salieo API provides direct access to the crop direction data that powers [sa
 
 **Request:**
 
-```bash
+```makefile
 GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&key=myapikey
 ```
 
