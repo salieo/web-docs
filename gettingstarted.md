@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Setup an image
 
-To activate Salieo on your first image, add the `salieo` class to any `<img>` element or element with a CSS `backgrond-image`. You can also specify a custom class to use (instead of the default `salieo`) with the [img_class](https://github.com/salieo/salieo.js#img_class) option.
+To activate Salieo on your first image, add the *salieo* class to any `<img>` element or element with a CSS `background-image`. You can also specify a custom class to use (instead of the default *salieo*) with the [img_class](https://github.com/salieo/salieo.js#img_class) option.
 
 @[jsfiddle](8z8ss6qy)
 
-To fine tune how your image is positioned or scaled there are a variety of crop options that can be set [globally](https://github.com/salieo/salieo.js#crop_options) (for all images) or [per-image](https://github.com/salieo/salieo.js#crop-options). Here's the same image with the zoom set to **auto**.
+To fine tune how your image is positioned or scaled there are a variety of crop options that can be set [globally](https://github.com/salieo/salieo.js#crop_options) (for all images) or [per-image](https://github.com/salieo/salieo.js#crop-options). Here's the same image with the **zoom** set to *auto*.
 
 @[jsfiddle](81q8kpkv)
