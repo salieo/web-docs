@@ -3,7 +3,7 @@ First, make sure you've setup your site on your Salieo account. If you haven't d
 ### Include salieo.js
 Next, you can get started with Salieo by including the [salieo.js](https://github.com/salieo/salieo.js) library in your site's `<head>` with the following:
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/salieo.js@0/dist/salieo.min.js" defer></script>
 ```
 
@@ -13,7 +13,7 @@ You can find comprehensive documentation of all the [salieo.js](https://github.c
 
 Create an instance, passing in your [options](https://github.com/salieo/salieo.js#options).
 
-```
+```javascript
 var instance;
 document.addEventListener("DOMContentLoaded", function() {
     instance = new salieo({
