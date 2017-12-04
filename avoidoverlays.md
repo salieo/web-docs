@@ -6,3 +6,4 @@ The *salieo-avoid* class (or a custom class as specified with [avoid_class](#avo
 
 Try editing the fiddle and removing the *salieo-avoid* class from the text to see the difference.
 
+To override which side of the avoid area the subject is positioned, refer to the full documentation on [Avoid Area options](https://github.com/salieo/salieo.js#avoid-areas).
