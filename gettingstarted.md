@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ```
 
+**NOTE:** It's important that [salieo.js](https://github.com/salieo/salieo.js)  is included in your site's `<head>` **and** is initialized right after the `DOMContentLoaded` event to ensure there is enough time to load the crop direction data and apply the transformations to your images *before* they are displayed (resulting in no visible jump when the images reposition). More information about initializing [salieo.js](https://github.com/salieo/salieo.js) can be found [here](https://github.com/salieo/salieo.js#getting-started).
+
 ### Setup an image
 
 To activate Salieo on your first image, add the *salieo* class to any `<img>` element or element with a CSS `background-image`. You can also specify a custom class to use (instead of the default *salieo*) with the [img_class](https://github.com/salieo/salieo.js#img_class) option.
