@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Getting Started",
+        "file": "gettingstarted.md",
+        "alias": "/"
+    },
+    {
+        "title": "Avoid Areas",
+        "file": "avoidoverlays.md"
+    },
+    {
+        "title": "Customize Crops",
+        "file": "customizecrops.md"
+    },
+    {
+        "before": "hr",
+        "title": "API",
+        "file": "api.md",
+        "categories": [{
+            "title": "Suggested Crops",
+            "file": "suggestedcrops.md"
+        },
+        {
+            "title": "Fallback Crops",
+            "file": "fallbackcrops.md"
+        }]
+    }
+]
