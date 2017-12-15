@@ -55,9 +55,9 @@ GET https://api.salieo.com/v1/crop?url=https://www.salieo.com/testimg/test1.jpg&
 
 **orig_height** - Height of the processed image in px.
 
-**crops.suggested** - List of the [suggested crops](suggested-crops) for the image (could be empty).
+**crops.suggested** - List of the [suggested crops](suggestedcrops) for the image (could be empty).
 
-**crops.fallback** - List of the [fallback crops](fallback-crops) for the image (could be empty).
+**crops.fallback** - List of the [fallback crops](fallbackcrops) for the image (could be empty).
 
 Crops are represented with the following structure:
 
