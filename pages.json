@@ -6,6 +6,10 @@
         "categories": [{
             "title": "Customize Crops",
             "file": "customizecrops.md"
+        },
+        {
+            "title": "Authorized URLs",
+            "file": "authorizedurls.md"
         }]
     },
     {
