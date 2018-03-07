@@ -2,15 +2,15 @@
     {
         "title": "Getting Started",
         "file": "gettingstarted.md",
-        "alias": "/"
+        "alias": "/",
+        "categories": [{
+            "title": "Customize Crops",
+            "file": "customizecrops.md"
+        }]
     },
     {
         "title": "Avoid Areas",
         "file": "avoidoverlays.md"
-    },
-    {
-        "title": "Customize Crops",
-        "file": "customizecrops.md"
     },
     {
         "before": "hr",
